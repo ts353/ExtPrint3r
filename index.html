@@ -319,7 +319,7 @@
         <div class="option" data-name="settings-tab">Settings</div>
         <div class="option" data-name="about-tab">About</div>
         <div style="border-top: 1px solid #444; margin-top: 10px; padding-top: 10px; width: 100%;"></div>
-        <p style="text-align: center; margin-left: -10px; user-select: none;">Made by <a href="https://github.com/Blobby-Boi/" target="_blank">Blobby Boi</a></p>
+        <p style="text-align: center; margin-left: -10px; user-select: none;">Made by <a href="https://github.com/Blobby-Boi/" target="_blank">Blobby Boi</a>, Edited by Theo</p>
     </div>
     <div class="main-content">
         <div id="printer-tab">
@@ -770,7 +770,7 @@
 
             const instructions = document.createElement("p");
             const settingsUrl = "chrome://extensions?id=" + extId;
-            instructions.innerHTML = "Open the following URL in a new tab:<br><br><span>" + settingsUrl + "</span><br><br> Then go back to this one and press the button below which will open a new tab. Immediately press ctrl+tab and start spamming the switch called \"Allow Access to file URLs\" for about 5 seconds. Once you are done, close that tab and switch to the other one. Then, press cancel on the print dialog and the tab should close. If done correctly, the extension " + extName + " should've been killed.";
+            instructions.innerHTML = "Go to chrome://settings/content/v8, and select \"Don't allow sites to use the V8 optimizer\". Then open the following URL in a new tab:<br><br><span>" + settingsUrl + "</span><br><br> Come back to this tab and press the button below which will open a new tab. Immediately press ctrl+tab and start spamming the switch called \"Allow Access to file URLs\" for about 5 seconds. Once you are done, close that tab and switch to the other one. Then, press cancel on the print dialog and the tab should close. If done correctly, the extension " + extName + " should've been killed.";
             instructions.style.padding = "15px";
             instructions.style.textAlign = "center";
 
