@@ -786,7 +786,7 @@
             printButton.style.marginBottom = "15px";
             printButton.onclick = () => {
                 createIframesAndPrint(extPage, extIcon);
-                instructions.innerHTML = extName + ' has been killed!';
+                instructions.innerHTML = extName + ' has been killed! To re-enable it, go back to ' + settingsUrl + ' and flip the "Allow access to file URLs" switch.';
 		popup.removeChild(buttonContainer);
             };
 
